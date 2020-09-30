@@ -23,7 +23,7 @@ int main ()
     double  prec, var, app, L=1.,a, gamma, E_x, E_y, Energy;
     double** grid;
     bool done =false;
-    char fname[] = "GridStep00.dat"; //modify fname[8] to change file name
+    char fname[] = "GridStep00.dat"; //modify fname[8], fname[9] to change file name
 
     // Reading and setting the values of the working variables
 
