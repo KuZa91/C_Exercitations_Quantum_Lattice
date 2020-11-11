@@ -216,14 +216,9 @@ int main ()
         		cout<< "We passed the burning time, the value of the energy for this sample is "<< NRG(pi, newfield, a_tau, m, lambda, N) << " !"<<endl;
         		acc +=1;
         		check_stuck = 0;  
-
-        		// Replacing energy only if within a window
         		
-        		if(NRG(pi, newfield, a_tau, m, lambda, N) <= 1.5*Energy)
-        		{
-
-        			Energy = NRG(pi, newfield, a_tau, m, lambda, N);
-        		}
+        		Energy = NRG(pi, newfield, a_tau, m, lambda, N);
+        		
         		
 
             	for(cnt = 0; cnt<N; cnt++)
